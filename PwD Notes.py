@@ -238,4 +238,3 @@ def lottery():
         print ('You matched the Joker!', set(user_sel[1]))
     else:
         print("You did not match the Joker!")
-

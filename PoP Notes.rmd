@@ -33,6 +33,16 @@ Dictionary: associate key and value, keys are immutable, values can be mutable.
 Tuple: immutable, ordered group of items. Objects inside tuples can be changed.  
 String: immutable list of alphanumerical symbols. 
 
+Reference systems:  
+- simple objects (strings, numbers) got equivalent reference to the same item  
+- complex objects, even if have the same elements, refer to different objects, it is called aliasing
+- aliasing makes that changing values for alias x will change values in alias y  
+- to check if items share reference we can use "x is y" comparison  
+
+OOP:  
+- constructors, automatically initialize variables  
+- polymorphism, using same method for different objects that yields different results  
+- polymorphism, in other words, different behaviour for different objects using the same method
 
 \newpage
 # Glossary   
